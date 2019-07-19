@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/height_140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/radius_5dp"
+    android:layout_margin="@dimen/radius_5dp"
+    tools:context=".fragment.ColumnFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/column_img"
+        android:layout_width="@dimen/width_200dp"
+        android:scaleType="fitXY"
+        android:layout_height="@dimen/height_140dp" />
+
+    <TextView
+        android:textColor="@color/c_white"
+        android:id="@+id/column_description"
+        android:layout_margin="@dimen/margin_10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="@color/c_white"
+        android:id="@+id/column_name"
+        android:textSize="@dimen/textSize_15dp"
+        android:gravity="right"
+        android:padding="@dimen/margin_10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_10dp"
+        android:layout_width="@dimen/width_200dp"
+        android:layout_height="wrap_content" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

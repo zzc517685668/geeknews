@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/zixun" />
+    <group android:id="@+id/zixun">
+        <item
+            android:id="@+id/nv_it_zhihu"
+            android:checkable="true"
+            android:checked="true"
+            android:icon="@mipmap/ic_drawer_zhihu"
+            android:title="@string/zhihuribao"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/nv_it_wechat"
+            android:checkable="true"
+            android:icon="@mipmap/ic_drawer_wechat"
+            android:title="@string/wechat"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/nv_it_gank"
+            android:checkable="true"
+            android:icon="@mipmap/ic_drawer_gank"
+            android:title="@string/gank"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/nv_it_gold"
+            android:icon="@mipmap/ic_drawer_gold"
+            android:checkable="true"
+            android:title="@string/gold"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/nv_it_vtex"
+            android:icon="@mipmap/ic_drawer_vtex"
+            android:checkable="true"
+            android:title="@string/vtex"
+            app:showAsAction="never" />
+
+    </group>
+    <item android:title="@string/option" />
+    <group android:id="@+id/option">
+        <item
+            android:id="@+id/nv_it_like"
+            android:icon="@mipmap/ic_drawer_like"
+            android:checkable="true"
+            android:title="@string/like"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/nv_it_settings"
+            android:checkable="true"
+            android:title="@string/settings"
+            android:icon="@mipmap/ic_drawer_setting"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/nv_it_about"
+            android:checkable="true"
+            android:icon="@mipmap/ic_drawer_about"
+            android:title="@string/about"
+            app:showAsAction="never" />
+    </group>
+</menu>

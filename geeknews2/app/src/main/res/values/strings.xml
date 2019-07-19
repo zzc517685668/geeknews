@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">geeknews</string>
+    <string name="zixun">资讯</string>
+    <string name="zhihuribao">知乎日报</string>
+    <string name="wechat">微信精选</string>
+    <string name="gank">干活集中营</string>
+    <string name="gold">稀土掘金</string>
+    <string name="vtex">V2EX</string>
+    <string name="option">选项</string>
+    <string name="like">收藏</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+
+    <string name="detail_bottom_share">分享</string>
+    <string name="detail_bottom_like">点赞</string>
+    <string name="detail_bottom_commit">评论</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="TodayNews">今日新闻</string>
+    <string name="sousuo">搜索</string>
+    <string name="one">作者：张振川（zzc517685668@163.com）</string>
+    <string name="two">项目简介：极客日报，一个纯粹的阅读App，每天更新好文章，包括权威的时事解读、有趣的生活建议。这次讷是为了熟知当前Android端主流框架的使用，为了学习而写的这个项目！希望发邮箱给我提意见，蟹蟹！</string>
+    <string name="three">项目地址：</string>
+    <string name="four">请作者吃饭好叭！</string>
+    <string name="five">请用支付宝扫下面二维码，救救孩子！</string>
+</resources>

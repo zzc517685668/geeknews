@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_140dp"
+    android:background="@mipmap/bg_drawer">
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_marginRight="@dimen/margin_20dp"
+        android:text="Future of my"
+        android:textSize="@dimen/textSize_25dp"
+        android:textColor="@color/cardview_dark_background"
+        android:gravity="right"
+        android:layout_above="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/intro"
+        android:text="Please try harder and less"
+        android:textSize="@dimen/textSize_15dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:layout_marginBottom="@dimen/margin_20dp"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_marginRight="@dimen/margin_20dp"
+        android:textColor="@color/search_layover_bg"
+        android:gravity="right"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
